@@ -26,7 +26,7 @@ function App() {
                 </div>
 
                 {/* Rechte Seite */}
-                <div className="flex w-full bg-gray-100 justify-center items-center pr-[15px] pl-[15px] px-24 py-24 flex-col lg:max-w-1/2 flex-1 min-h-full">
+                <div className="flex w-full bg-white justify-center items-center pr-[15px] pl-[15px] px-24 py-24 flex-col lg:max-w-1/2 flex-1 min-h-full">
                     <img src={Dashboard} alt="Beschreibung" className="w-full h-auto drop-shadow-lg mb-8" />
                     <div className={'flex w-full justify-center items-center px-18 lg:space-x-20 space-x-10'}>
                         <img src={UniLogo} alt="Beschreibung" className="w-auto h-18" />
