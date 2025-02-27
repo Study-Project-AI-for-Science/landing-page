@@ -10,8 +10,7 @@ function App() {
                 {/* Linke Seite */}
                 <div className="flex w-full bg-white justify-center items-center flex-col pr-[15px] pl-[15px] lg:pr-[150px] py-24 lg:pl-[120px] lg:max-w-1/2 flex-1 min-h-full">
                     <p className="text-[40px] leading-tight font-extrabold text-[#B1B1A1] mb-12 text-center">
-                        Revolutionizing Research with AI <br />
-                        Smarter, Faster, Better
+                        Supporting the Review Process with AI
                     </p>
                     <p className={'text-xl mb-12 text-center'}>
                         Our AI-driven system, developed as a study project by
