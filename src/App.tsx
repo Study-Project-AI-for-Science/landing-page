@@ -23,7 +23,10 @@ function App() {
                         facilitate high-quality academic work, while also serving as a
                         practical application of AI in academic research.
                     </p>
-                    <button className="bg-[#F1F1F1] text-black px-[20px] py-[10px] rounded-lg">
+                    <button
+                        className="bg-[#F1F1F1] text-black px-[20px] py-[10px] rounded-lg hover:cursor-pointer"
+                        onClick={() => window.location.href = 'mailto:mweiher@uni-osnabrueck.de'}
+                    >
                         Contact Us to Learn More
                     </button>
                 </div>
