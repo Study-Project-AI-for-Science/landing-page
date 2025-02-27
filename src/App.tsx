@@ -14,11 +14,15 @@ function App() {
                         Smarter, Faster, Better
                     </p>
                     <p className={'text-xl mb-12 text-center'}>
-                        Our AI-driven system enhances the research and academic writing process by
-                        automating source validation and literature discovery. It verifies the accuracy
-                        of citations by comparing references with their original sources and assists in
-                        identifying relevant scientific papers for a given topic. This streamlines the review
-                        process, improves citation accuracy, and facilitates high-quality academic work.
+                        Our AI-driven system, developed as a study project by
+                        master’s students, enhances the research and academic
+                        writing process by automating source validation and literature
+                        discovery. It verifies the accuracy of citations by comparing
+                        references with their original sources and assists in identifying
+                        relevant scientific papers for a given topic. This project aims to
+                        streamline the review process, improve citation accuracy, and
+                        facilitate high-quality academic work, while also serving as a
+                        practical application of AI in academic research.
                     </p>
                     <button className="bg-[#F1F1F1] text-black px-[20px] py-[10px] rounded-lg">
                         Contact Us to Learn More
