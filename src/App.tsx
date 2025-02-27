@@ -36,14 +36,14 @@ function App() {
             </div>
 
             {/* Functionality Abschnitt */}
-            <div className="w-screen flex flex-col items-center bg-gray-50 py-24">
+            <div className="w-screen flex flex-col items-center bg-gray-50 pb-24 pt-12">
                 <p className={'w-full text-[40px] text-[#B1B1A1] mb-12 font-bold text-center'}>Functionality</p>
 
                 {/* Zwei gleich große Divs für die Boxen */}
                 <div className="w-full flex flex-col lg:flex-row items-stretch">
 
                     {/* Linke Seite (Box 1) */}
-                    <div className="w-full lg:w-1/2 flex justify-center items-center px-8 mb-10 lg:mb-0">
+                    <div className="w-full lg:w-1/2 flex justify-center items-center px-8">
                         <div className="w-full max-w-md bg-gray-100 shadow-lg rounded-xl p-8 flex flex-col justify-between h-full">
                             <span className="text-5xl">🔍</span>
                             <h3 className="text-2xl font-bold mt-4">Citation Verification & Source Analysis</h3>
@@ -68,6 +68,43 @@ function App() {
                                 find the most suitable literature for their work.
                             </p>
                         </div>
+                    </div>
+
+                </div>
+            </div>
+
+            {/* Partner Abschnitt */}
+            <div className="w-screen flex flex-col items-center bg-gray-[F1F1F1] pb-24 pt-12">
+                <p className="text-[40px] font-bold text-center text-black mb-12">Partner</p>
+
+                {/* Zwei gleich große Divs für die Boxen */}
+                <div className="w-full flex flex-col lg:flex-row items-stretch">
+
+                    {/* Universität Osnabrück */}
+                    <div className="w-full flex flex-col items-center text-center mb-10 lg:mb-0">
+                        <img src={UniLogo} alt="Universität Osnabrück" className="w-auto h-18 mr-6 mb-10" />
+                        <p className="text-gray-800 text-lg mx-[15px] lg:mx-[100px]">
+                            The University of Osnabrück is a leading academic institution in AI research and
+                            digital sciences. With a strong emphasis on interdisciplinary collaboration, it
+                            plays a crucial role in advancing artificial intelligence applications in scientific
+                            work. Through the AI for Science initiative, the university provides expertise in
+                            computational linguistics, machine learning, and automated knowledge extraction
+                            to develop innovative research tools.
+                        </p>
+                    </div>
+
+                    {/* DFKI */}
+                    <div className="w-full flex flex-col items-center text-center">
+                        <img src={DFKILogo} alt="DFKI" className="w-auto h-18 mr-6 mb-10" />
+                        <p className="text-gray-800 text-lg mx-[15px] lg:mx-[100px]">
+                            The German Research Center for Artificial Intelligence (DFKI) is one of the world’s
+                            leading institutions in AI research. Its Smart Enterprise Engineering (SEE)
+                            research group, based in Osnabrück, focuses on AI-driven automation, digital
+                            transformation, and intelligent knowledge management. By combining expertise
+                            in AI-powered decision support systems, information retrieval, and machine
+                            learning, the SEE group contributes cutting-edge technology to this project,
+                            ensuring that the system meets the highest scientific and technological standards.
+                        </p>
                     </div>
 
                 </div>
