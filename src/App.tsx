@@ -95,7 +95,9 @@ function App() {
                     <div className="w-full flex flex-col items-center text-center mb-10 lg:mb-0">
                         <img src={UniLogo} alt="IMWI - Universität Osnabrück" className="w-auto h-18 mr-6 mb-10" />
                         <p className="text-gray-800 text-lg mx-[15px] lg:mx-[100px]">
-                            The <strong>Institute of Information Management and Information Systems (IMWI)</strong> at the University of Osnabrück, 
+                            The <a href="https://www.wiwi.uni-osnabrueck.de/en/departments_and_institutes/information_management_and_information_systems_prof_thomas.html" className="text-blue-500 underline">
+                                <strong>Institute of Information Management and Information Systems (IMWI)</strong>
+                            </a> at the University of Osnabrück, 
                             led by Professor Dr. Oliver Thomas, specializes in the analysis and development of modern information technologies 
                             for future enterprises. The institute is organized into four research groups: Business Process Management & Analysis, 
                             Product-Service Systems Engineering, IT Governance, Risk & Compliance Management, and Mobile & Wearable Information Systems. 
