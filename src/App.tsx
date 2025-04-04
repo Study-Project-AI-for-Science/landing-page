@@ -10,9 +10,9 @@ function App() {
             <div className="w-screen flex flex-col lg:flex-row items-stretch">
             {/* Linke Seite */}
             <div className="flex w-full bg-white justify-center items-center flex-col pr-[15px] pl-[15px] lg:pr-[150px] py-24 lg:pl-[120px] lg:max-w-1/2 flex-1 min-h-full">
-                <p className="text-[60px] leading-tight font-extrabold text-[#B1B1A1] mb-12 text-center underline">
+                <h1 className="text-[60px] leading-tight font-extrabold text-[#B1B1A1] mb-12 text-center underline">
                     Study Project: LLMs for Science
-                </p>
+                </h1>
                 <p className="text-[40px] leading-tight font-extrabold text-[#B1B1A1] mb-12 text-center">
                 Supporting the Review Process with AI
                 </p>
