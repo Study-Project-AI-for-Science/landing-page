@@ -67,7 +67,21 @@ function App() {
                         </div>
                     </div>
 
-                    {/* Rechte Seite (Box 2) */}
+                    {/* Mitte (Box 2) */}
+                    <div className="w-full lg:w-1/2 flex justify-center items-center px-8">
+                        <div className="w-full max-w-md bg-gray-100 shadow-lg rounded-xl p-8 flex flex-col justify-between h-full">
+                            <span className="text-5xl">🧠</span>
+                            <h3 className="text-2xl font-bold mt-4">Paper Knowledge Graphs</h3>
+                            <p className="text-gray-700 mt-4 flex-1">
+                                The system transforms the content of research papers into a graph database, representing
+                                the relationships between different concepts, arguments, and evidence. This visualization
+                                aids in understanding complex arguments and facilitates deeper analysis, making it easier
+                                for reviewers to navigate through the paper's structure and logic.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Rechte Seite (Box 3) */}
                     <div className="w-full lg:w-1/2 flex justify-center items-center px-8">
                         <div className="w-full max-w-md bg-gray-100 shadow-lg rounded-xl p-8 flex flex-col justify-between h-full">
                             <span className="text-5xl">📚</span>
