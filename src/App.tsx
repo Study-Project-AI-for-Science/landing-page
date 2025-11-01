@@ -32,6 +32,12 @@ function App() {
                 >
                 Contact Us to Learn More
                 </button>
+                <button
+                className="bg-[#F1F1F1] text-black px-[20px] py-[10px] rounded-lg hover:cursor-pointer mt-4"
+                onClick={() => window.open('https://github.com/orgs/Study-Project-AI-for-Science/repositories?type=source', '_blank')}
+                >
+                Find our source code here
+                </button>
             </div>
 
             {/* Rechte Seite */}
